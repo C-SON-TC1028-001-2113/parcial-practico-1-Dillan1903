@@ -7,7 +7,7 @@ def main():
     x2=float(input("Introduce x2: "))
     y2=float(input("Introduce y2: "))
     
-    d=math.sqrt((x2-x1)*2+(y2-y1)*2)
+    d=math.sqrt((x2-x1)**2+(y2-y1)**2)
     if d>r:
         print("FUERA")
     elif d<r:
